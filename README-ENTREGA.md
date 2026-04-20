@@ -15,7 +15,7 @@
 
 ## Acciones Realizadas
 - Creación de CV y Portafolio coherentemente en cuanto a diseño.
+- Publicar el repositorio en GitHub Pages con el CV como página principal.
 
 ## Acciones por Realizar
-- Publicar el repositorio en GitHub Pages con el CV como página principal.
 - Hacer los forks y commits solicitados por la prueba.
