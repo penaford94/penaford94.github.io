@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="CV profesional de Sebastián Ignacio Peña Ford, Ingeniero Civil Mecánico orientado a Data Engineering, Analytics y automatización de procesos.">
+    <title>CV | Sebastián Peña Ford</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkR4j8lJ0o6Q8K/ux8xYtN8+RxpK6k9GdZDg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel="stylesheet" href="./assets/css/index.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg fixed-top cv-navbar" aria-label="Navegación principal">
+        <div class="container">
+            <a class="navbar-brand d-flex align-items-center gap-2" href="#inicio">
+                <span>Sebastián Peña Ford</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCV"
+                aria-controls="navbarCV" aria-expanded="false" aria-label="Abrir navegación">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCV">
+                <ul class="navbar-nav ms-auto align-items-lg-center gap-lg-2">
+                    <li class="nav-item"><a class="nav-link" href="#resumen">Resumen</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#educacion">Educación</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#experiencia">Experiencia</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#stack">Stack</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contacto">Contacto</a></li>
+                    <li class="nav-item ms-lg-2">
+                        <a class="btn btn-info text-white px-3" href="./portafolio.html">Ver portafolio</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header class="hero-section d-flex align-items-center" id="inicio">
+        <div class="hero-overlay"></div>
+        <div class="container position-relative">
+            <div class="row align-items-center gy-5">
+                <div class="col-12 col-lg-7">
+                    <span class="eyebrow">Curriculum Vitae</span>
+                    <h1 class="display-4 fw-bold mb-3">Ingeniero Civil Mecánico con foco en Data Engineering, Analytics
+                        y automatización.</h1>
+                    <p class="hero-copy mb-4">
+                        Perfil híbrido entre ingeniería, analítica y negocio, con experiencia en optimización
+                        operacional,
+                        reportería, documentación técnica y soluciones orientadas a decisiones basadas en datos.
+                    </p>
+
+                    <div class="hero-actions d-flex flex-wrap gap-3 mb-4">
+                        <a class="btn btn-info btn-lg text-white" href="./portafolio.html">Ir al portafolio</a>
+                        <a class="btn btn-outline-light btn-lg" href="https://github.com/penaford94" target="_blank"
+                            rel="noopener noreferrer">GitHub</a>
+                        <a class="btn btn-outline-light btn-lg" href="https://www.linkedin.com/in/sebastian-pena-ford/"
+                            target="_blank" rel="noopener noreferrer">LinkedIn</a>
+                    </div>
+
+                    <div class="hero-badges d-flex flex-wrap gap-2">
+                        <span>Python</span>
+                        <span>SQL</span>
+                        <span>PySpark</span>
+                        <span>Airflow</span>
+                        <span>GCP</span>
+                        <span>GitHub</span>
+                    </div>
+                </div>
+
+                <div class="col-12 col-lg-5">
+                    <div class="profile-card shadow-lg">
+                        <div class="profile-image-wrap">
+                            <img src="./assets/img/perfil.jpeg" alt="Foto de perfil de Sebastián Peña Ford"
+                                class="profile-image">
+                        </div>
+                        <div class="profile-content">
+                            <h2 class="h3 fw-bold mb-1">Sebastián Ignacio Peña Ford</h2>
+                            <p class="profile-role mb-4">Data Engineer & Analytics Specialist · R&D Engineer</p>
+
+                            <div class="profile-info-item d-flex justify-content-between align-items-center">
+                                <span>Ubicación</span>
+                                <strong>Santiago, Chile</strong>
+                            </div>
+                            <div class="profile-info-item d-flex justify-content-between align-items-center">
+                                <span>Teléfono</span>
+                                <strong>+56 9 9337 4162</strong>
+                            </div>
+                            <div class="profile-info-item d-flex justify-content-between align-items-center">
+                                <span>Email</span>
+                                <strong>penaford94@gmail.com</strong>
+                            </div>
+                            <div
+                                class="profile-info-item d-flex justify-content-between align-items-center border-0 pb-0">
+                                <span>Enfoque</span>
+                                <strong>Data + Negocio</strong>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="section-light py-5" id="resumen">
+            <div class="container py-lg-4">
+                <div class="section-heading text-center mx-auto mb-5">
+                    <span class="section-kicker">Resumen profesional</span>
+                    <h2 class="fw-bold mb-3">Experiencia aplicada en procesos, datos y mejora continua</h2>
+                    <p class="text-secondary mb-0">
+                        Ingeniero con experiencia levantando requerimientos, coordinando áreas críticas y traduciendo
+                        problemas operacionales en soluciones analíticas, automatizaciones y reportes accionables.
+                    </p>
+                </div>
+
+                <div class="row g-4 align-items-stretch">
+                    <div class="col-12 col-lg-8 d-flex">
+                        <article class="content-card w-100 h-100">
+                            <h3 class="h4 fw-bold mb-3">Propuesta de valor</h3>
+                            <p class="text-secondary mb-4">
+                                Combino formación en ingeniería con herramientas de datos para diseñar soluciones
+                                escalables: pipelines, modelamiento, automatización de reportería y visualización de
+                                indicadores para apoyar la toma de decisiones.
+                            </p>
+                            <div class="feature-grid">
+                                <div class="feature-item">
+                                    <i class="fa-solid fa-gears"></i>
+                                    <div>
+                                        <strong>Automatización</strong>
+                                        <span>Optimización de flujos repetitivos y estandarización de
+                                            entregables.</span>
+                                    </div>
+                                </div>
+                                <div class="feature-item">
+                                    <i class="fa-solid fa-chart-column"></i>
+                                    <div>
+                                        <strong>Analítica</strong>
+                                        <span>Transformación de datos históricos en insights operativos y de
+                                            negocio.</span>
+                                    </div>
+                                </div>
+                                <div class="feature-item">
+                                    <i class="fa-solid fa-database"></i>
+                                    <div>
+                                        <strong>Data Engineering</strong>
+                                        <span>Trabajo con SQL, PySpark, Airflow y fundamentos ETL/ELT.</span>
+                                    </div>
+                                </div>
+                                <div class="feature-item">
+                                    <i class="fa-solid fa-users-gear"></i>
+                                    <div>
+                                        <strong>Stakeholders</strong>
+                                        <span>Levantamiento de requerimientos con áreas técnicas, comerciales y
+                                            operativas.</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+
+                    <div class="col-12 col-lg-4 d-flex">
+                        <aside class="metrics-card w-100 h-100">
+                            <span class="section-kicker text-info">Impacto</span>
+                            <div class="metric-item">
+                                <strong>85%</strong>
+                                <span>de optimización operacional reportada en proyectos de análisis técnico.</span>
+                            </div>
+                            <div class="metric-item">
+                                <strong>15%</strong>
+                                <span>de reducción en tiempos de respuesta vinculados a SLA y reportería.</span>
+                            </div>
+                            <div class="metric-item border-0 pb-0 mb-0">
+                                <strong>Perfil híbrido</strong>
+                                <span>Ingeniería, analítica y negocio integrados en una misma propuesta.</span>
+                            </div>
+                        </aside>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section-white py-5" id="educacion">
+            <div class="container py-lg-4">
+                <div class="section-heading text-center mx-auto mb-5">
+                    <span class="section-kicker">Educación</span>
+                    <h2 class="fw-bold mb-3">Formación académica y especialización en datos</h2>
+                    <p class="text-secondary mb-0">
+                        Trayectoria formativa orientada a fortalecer habilidades analíticas, técnicas y de negocio.
+                    </p>
+                </div>
+
+                <div class="timeline-card mx-auto">
+                    <div class="timeline-item d-flex gap-3">
+                        <span class="timeline-icon"><i class="fa-solid fa-graduation-cap"></i></span>
+                        <div>
+                            <h3 class="h5 fw-bold mb-1">Diplomado Data Engineer · USACH</h3>
+                            <p class="timeline-date mb-2">2025</p>
+                            <p class="text-secondary mb-0">Formación en ingeniería de datos, procesamiento distribuido y
+                                automatización de pipelines.</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item d-flex gap-3">
+                        <span class="timeline-icon"><i class="fa-solid fa-brain"></i></span>
+                        <div>
+                            <h3 class="h5 fw-bold mb-1">Diplomado Data Science · UTFSM</h3>
+                            <p class="timeline-date mb-2">2023</p>
+                            <p class="text-secondary mb-0">Especialización en análisis de datos, modelamiento y
+                                herramientas de ciencia de datos.</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item d-flex gap-3 mb-0 pb-0 border-0">
+                        <span class="timeline-icon"><i class="fa-solid fa-screwdriver-wrench"></i></span>
+                        <div>
+                            <h3 class="h5 fw-bold mb-1">Ingeniería Civil Mecánica, mención Energía · UTFSM</h3>
+                            <p class="timeline-date mb-2">2013 – 2021</p>
+                            <p class="text-secondary mb-0">Base sólida en resolución de problemas, análisis sistémico y
+                                gestión de proyectos técnicos.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section-dark py-5" id="experiencia">
+            <div class="container py-lg-4">
+                <div class="section-heading text-center mx-auto mb-5">
+                    <span class="section-kicker text-info">Experiencia profesional</span>
+                    <h2 class="fw-bold mb-3 text-white">Roles con foco en operación, I+D y analítica aplicada</h2>
+                    <p class="text-light-emphasis mb-0">
+                        Experiencia reciente desarrollando documentación técnica, soluciones analíticas y automatización
+                        de procesos.
+                    </p>
+                </div>
+
+                <div class="row g-4">
+                    <div class="col-12 col-lg-6 d-flex">
+                        <article class="experience-card w-100 h-100">
+                            <div class="experience-top d-flex flex-wrap justify-content-between gap-2 mb-3">
+                                <span class="badge text-bg-info text-white">2026 – Actualidad</span>
+                                <span class="experience-company">Besalco Minería S.A.</span>
+                            </div>
+                            <h3 class="h4 fw-bold mb-3">Ingeniero de Desarrollo de Negocios</h3>
+                            <ul class="experience-list list-unstyled mb-0">
+                                <li><i class="fa-solid fa-check"></i> Desarrollo de metodologías para documentación
+                                    técnica estandarizada en licitaciones mineras.</li>
+                                <li><i class="fa-solid fa-check"></i> Construcción de planillas y apoyos analíticos para
+                                    toma de decisiones en Gerencia Comercial.</li>
+                                <li><i class="fa-solid fa-check"></i> Actualización de bases de datos operativas para
+                                    acelerar entregas de licitaciones.</li>
+                                <li><i class="fa-solid fa-check"></i> Automatización parcial de reportería y seguimiento
+                                    comercial.</li>
+                            </ul>
+                        </article>
+                    </div>
+
+                    <div class="col-12 col-lg-6 d-flex">
+                        <article class="experience-card w-100 h-100">
+                            <div class="experience-top d-flex flex-wrap justify-content-between gap-2 mb-3">
+                                <span class="badge text-bg-info text-white">2023 – 2025</span>
+                                <span class="experience-company">Power Train Technologies</span>
+                            </div>
+                            <h3 class="h4 fw-bold mb-3">Ingeniero de Desarrollo de Proyectos I+D</h3>
+                            <ul class="experience-list list-unstyled mb-0">
+                                <li><i class="fa-solid fa-check"></i> Desarrollo de modelos de regresión para
+                                    caracterizar curvas de rendimiento y automatizar veredictos técnicos.</li>
+                                <li><i class="fa-solid fa-check"></i> Análisis de patrones de consumo y abastecimiento a
+                                    partir de datos históricos.</li>
+                                <li><i class="fa-solid fa-check"></i> Digitalización de procesos y levantamiento de
+                                    requerimientos con trazabilidad operacional.</li>
+                                <li><i class="fa-solid fa-check"></i> Uso de analítica en reportes de garantía y
+                                    cumplimiento SLA, reduciendo tiempos de respuesta.</li>
+                            </ul>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section-light py-5" id="stack">
+            <div class="container py-lg-4">
+                <div class="section-heading text-center mx-auto mb-5">
+                    <span class="section-kicker">Stack tecnológico</span>
+                    <h2 class="fw-bold mb-3">Herramientas alineadas con análisis, ingeniería de datos y BI</h2>
+                </div>
+
+                <div class="row g-3">
+                    <div class="col-6 col-md-4 col-lg-3">
+                        <div class="stack-chip"><i class="fa-brands fa-python"></i><span>Python</span></div>
+                    </div>
+                    <div class="col-6 col-md-4 col-lg-3">
+                        <div class="stack-chip"><i class="fa-solid fa-database"></i><span>SQL</span></div>
+                    </div>
+                    <div class="col-6 col-md-4 col-lg-3">
+                        <div class="stack-chip"><i class="fa-solid fa-bolt"></i><span>PySpark</span></div>
+                    </div>
+                    <div class="col-6 col-md-4 col-lg-3">
+                        <div class="stack-chip"><i class="fa-solid fa-wind"></i><span>Airflow</span></div>
+                    </div>
+                    <div class="col-6 col-md-4 col-lg-3">
+                        <div class="stack-chip"><i class="fa-solid fa-cloud"></i><span>GCP</span></div>
+                    </div>
+                    <div class="col-6 col-md-4 col-lg-3">
+                        <div class="stack-chip"><i class="fa-brands fa-docker"></i><span>Docker</span></div>
+                    </div>
+                    <div class="col-6 col-md-4 col-lg-3">
+                        <div class="stack-chip"><i class="fa-brands fa-git-alt"></i><span>Git & GitHub</span></div>
+                    </div>
+                    <div class="col-6 col-md-4 col-lg-3">
+                        <div class="stack-chip"><i class="fa-solid fa-chart-pie"></i><span>Power BI / Tableau</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="contact-section py-5" id="contacto">
+            <div class="container py-lg-4">
+                <div class="contact-card text-center mx-auto">
+                    <span class="section-kicker">Contacto</span>
+                    <h2 class="fw-bold mb-3">Disponible para roles y proyectos orientados a datos</h2>
+                    <p class="text-secondary mb-4">
+                        Puedes revisar mi portafolio, escribirme por correo o visitar mis perfiles profesionales.
+                    </p>
+                    <div class="d-flex flex-wrap justify-content-center gap-3 mb-4">
+                        <a class="btn btn-info text-white px-4" href="./portafolio.html">Abrir portafolio</a>
+                        <a class="btn btn-outline-dark px-4" href="mailto:penaford94@gmail.com">Escribirme</a>
+                    </div>
+                    <div class="contact-links d-flex flex-wrap justify-content-center gap-3">
+                        <a href="https://www.linkedin.com/in/sebastian-pena-ford/" target="_blank"
+                            rel="noopener noreferrer"><i class="fa-brands fa-linkedin"></i> LinkedIn</a>
+                        <a href="https://github.com/penaford94" target="_blank" rel="noopener noreferrer"><i
+                                class="fa-brands fa-github"></i> GitHub</a>
+                        <a href="https://www.kaggle.com/sipf94" target="_blank" rel="noopener noreferrer"><i
+                                class="fa-brands fa-kaggle"></i> Kaggle</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer-cv py-4">
+        <div
+            class="container d-flex flex-column flex-md-row justify-content-between align-items-center gap-2 text-center text-md-start">
+            <p class="mb-0">© 2026 Sebastián Ignacio Peña Ford · CV y portafolio personal.</p>
+            <a href="#inicio" class="footer-link">Volver arriba <i class="fa-solid fa-arrow-up"></i></a>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
