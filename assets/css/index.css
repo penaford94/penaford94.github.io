@@ -194,6 +194,16 @@ section {
   max-width: 760px;
 }
 
+.experience-card h3,
+.experience-card .experience-top {
+    text-align: center;
+}
+
+.experience-list {
+    text-align: left;
+    display: inline-block;
+}
+
 .content-card,
 .metrics-card,
 .timeline-card,
